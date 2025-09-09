@@ -17,6 +17,8 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private Button _optionsCategorySounds;
     [SerializeField] private Button _creditsButton;
     [SerializeField] private Button _exitButton;
+    [SerializeField] private Button _exitYESButton;
+    [SerializeField] private Button _exitNOButton;
 
     [Header("Menu Tabs")]
     [SerializeField] private GameObject _tabPanel;
@@ -58,7 +60,7 @@ public class MainMenuController : MonoBehaviour
 
     private void OptionCategories(string category)
     {
-        Debug.Log("Current category: " + category); // Comment this when finish
+        Debug.Log("Current category: " + category); // Comment this when options tab will be finished
         if (category == "video")
         {
             _tabOptionsVideo.SetActive(true);
@@ -100,6 +102,31 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
+    private void OnExit()
+    {
+        _tabNameText.text = "Exit Confirmation";
+        _catSelector.SetActive(false);
+        if (_tabPanel.activeSelf)
+        {
+            _tabPanel.SetActive(false);
+            _tabExit.SetActive(false);
+        }
+        else
+        {
+            _tabPanel.SetActive(true);
+            _tabExit.SetActive(true);
+        }
+    }
+    private void ExitNo()
+    {
+        _tabPanel.SetActive(false);
+        _tabExit.SetActive(false);
+    }
+    private void ExitYes()
+    {
+        Application.Quit();
+    }
+
     private void ButtonConnector()
     {
         _newGameButton.onClick.AddListener(OnNewGame);
@@ -110,6 +137,11 @@ public class MainMenuController : MonoBehaviour
         _optionsCategorySounds.onClick.AddListener(() => OptionCategories("sounds"));
 
         _creditsButton.onClick.AddListener(OnCredits);
+
+        _exitButton.onClick.AddListener(OnExit);
+        _exitYESButton.onClick.AddListener(ExitYes);
+        _exitNOButton.onClick.AddListener(ExitNo);
+
     }
 
     void Start()

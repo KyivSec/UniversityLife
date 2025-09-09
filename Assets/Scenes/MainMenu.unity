@@ -781,10 +781,10 @@ RectTransform:
   - {fileID: 377488145}
   m_Father: {fileID: 863643237}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 315.20215, y: -50}
+  m_SizeDelta: {x: 198.6281, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419921380
 MonoBehaviour:
@@ -1406,10 +1406,10 @@ RectTransform:
   - {fileID: 1566157073}
   m_Father: {fileID: 863643237}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 99.31405, y: -50}
+  m_SizeDelta: {x: 198.6281, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &628373851
 MonoBehaviour:
@@ -1617,6 +1617,8 @@ MonoBehaviour:
   _optionsCategorySounds: {fileID: 779448146}
   _creditsButton: {fileID: 1328049385}
   _exitButton: {fileID: 196388042}
+  _exitYESButton: {fileID: 628373851}
+  _exitNOButton: {fileID: 419921380}
   _tabPanel: {fileID: 1261959662}
   _catSelector: {fileID: 804996226}
   _tabOptions: {fileID: 1438418573}
@@ -1624,6 +1626,7 @@ MonoBehaviour:
   _tabOptionsGraphics: {fileID: 2008693257}
   _tabOptionsSounds: {fileID: 412022463}
   _tabCredits: {fileID: 1016578124}
+  _tabExit: {fileID: 1478275501}
 --- !u!1 &779448144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,7 +2656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1261959663
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3283,7 +3286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1478275502
 RectTransform:
   m_ObjectHideFlags: 0
