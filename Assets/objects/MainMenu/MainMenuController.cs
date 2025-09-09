@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Security;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -18,21 +20,25 @@ public class MainMenuController : MonoBehaviour
 
     [Header("Menu Tabs")]
     [SerializeField] private GameObject _tabPanel;
+    [SerializeField] private GameObject _catSelector;
     [SerializeField] private GameObject _tabOptions;
     [SerializeField] private GameObject _tabOptionsVideo;
     [SerializeField] private GameObject _tabOptionsGraphics;
     [SerializeField] private GameObject _tabOptionsSounds;
     [SerializeField] private GameObject _tabCredits;
+    [SerializeField] private GameObject _tabExit;
 
     private void OnNewGame()
     {
-
+        // Maybe some code for animation or something
+        SceneManager.LoadScene("Corridor");
     }
 
     private void OnOptions()
     {
         OptionCategories("video");
         _tabNameText.text = "Options";
+        _catSelector.SetActive(true);
 
         if (_tabPanel.activeSelf)
         {
@@ -77,6 +83,23 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
+    private void OnCredits()
+    {
+        _tabNameText.text = "Credits";
+        _catSelector.SetActive(false);
+
+        if (_tabPanel.activeSelf)
+        {
+            _tabPanel.SetActive(false);
+            _tabCredits.SetActive(false);
+        }
+        else
+        {
+            _tabPanel.SetActive(true);
+            _tabCredits.SetActive(true);
+        }
+    }
+
     private void ButtonConnector()
     {
         _newGameButton.onClick.AddListener(OnNewGame);
@@ -85,6 +108,8 @@ public class MainMenuController : MonoBehaviour
         _optionsCategoryVideo.onClick.AddListener(() => OptionCategories("video"));
         _optionsCategoryGraphics.onClick.AddListener(() => OptionCategories("graphics"));
         _optionsCategorySounds.onClick.AddListener(() => OptionCategories("sounds"));
+
+        _creditsButton.onClick.AddListener(OnCredits);
     }
 
     void Start()
