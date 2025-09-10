@@ -8,7 +8,7 @@ public class MainMenuController : MonoBehaviour
 {
 
     [Header("Main Buttons")]
-    //[SerializeField] private Button _newGameButton;
+    [SerializeField] private Button _newGameButton;
     [SerializeField] private Button _playButton;
     [SerializeField] private Button _moreButton;
     [SerializeField] private Button _exitButton;
@@ -111,7 +111,7 @@ public class MainMenuController : MonoBehaviour
     {
         _moreButton.onClick.AddListener(OnOptions);
 
-        //_newGameButton.onClick.AddListener(OnNewGame);
+        _newGameButton.onClick.AddListener(OnNewGame);
 
         _optionsButton.onClick.AddListener(OnOptions);
         _optionsCategoryVideo.onClick.AddListener(() => OptionCategories("video"));

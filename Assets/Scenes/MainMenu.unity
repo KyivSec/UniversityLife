@@ -1855,6 +1855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9196538157d850b47a1544c715dcbfa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuController
+  _newGameButton: {fileID: 1834066654}
   _playButton: {fileID: 852564541}
   _moreButton: {fileID: 1904643057}
   _exitButton: {fileID: 475840540}
