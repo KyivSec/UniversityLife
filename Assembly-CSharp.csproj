@@ -48,8 +48,9 @@
     <Analyzer Include="D:\Unity\Editor\6000.2.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\objects\Player\PhoneScript.cs" />
     <Compile Include="Assets\objects\MainMenu\OptionsScript.cs" />
+    <Compile Include="Assets\objects\Phone\PhoneTime.cs" />
+    <Compile Include="Assets\objects\Phone\PhoneScript.cs" />
     <Compile Include="Assets\objects\Player\PlayerCamera.cs" />
     <Compile Include="Assets\objects\Player\PlayerController.cs" />
     <Compile Include="Assets\objects\MainMenu\MainMenuController.cs" />

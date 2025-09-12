@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PhoneScript : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class PhoneScript : MonoBehaviour
     private void Start()
     {
         phoneRectTransform = phoneUIElement.GetComponent<RectTransform>();
-        
+
         Vector2 startPos = phoneRectTransform.anchoredPosition;
         startPos.y = initialPosition;
         phoneRectTransform.anchoredPosition = startPos;
@@ -51,6 +52,11 @@ public class PhoneScript : MonoBehaviour
         }
         
         phoneRectTransform.anchoredPosition = targetPos;
+    }
+
+    public void MenuButtonAction()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     void Update()
