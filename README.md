@@ -25,7 +25,7 @@ git pull origin main
 
 4. Натисніть кнопку *Add* праворуч зверху, та оберіть *Add project from disk*:
 
-5. ![Зображення Add project from disk](https://cdn.discordapp.com/attachments/1414609032680968194/1414979961537822720/image.png?ex=68c18a47&is=68c038c7&hm=9ed21b61476b2ddaaf19dc4d4d00e18d64306ad6813070208c7ab71fc8ca026e&)
+5. ![Зображення Add project from disk](https://cdn.discordapp.com/attachments/1415008906991898705/1415992753669541968/image.png?ex=68c53984&is=68c3e804&hm=2c5eee49f3da75dafcaec52be30b471165d26b5a57da8e355f2170ab9f03cfc4&)
 
 6. У списку проєктів повинен з'явитися проєкт **University Life**. Натисніть на нього та дочекайтесь ініціалізації бібліотек.
 
@@ -37,12 +37,12 @@ git pull origin main
 
 1. Завантажте *Build Support* під вашу систему шляхом Installs -> Unity 6.2 -> Add Modules -> "**Windows Build Support (Mono)"**.*
    **ОБОВ'ЯЗКОВО MONO, IL2CPP НЕ ПІДІЙДЕ!!!**
-   ![Зображення Add modules](https://cdn.discordapp.com/attachments/1415008906991898705/1415033030552191006/image.png?ex=68c1bbb4&is=68c06a34&hm=35c0e871cff927af1a9eb3ec0e11a3d00aa96aa3e3935b44bd7cce44982fd987&)
+   ![Зображення Add modules](https://cdn.discordapp.com/attachments/1415008906991898705/1415033030552191006/image.png?ex=68c50774&is=68c3b5f4&hm=331352a7987c5505d0374d28e69dd69b27b535f60794cbdf1ab3b076e88daf89&)
    **Переконайтеся, що ви зняли ластівку з модулю "Microsoft Visual Studio Community 2022" зверху!**
    Також може знадобитись перезапустити Unity.
 
 2. Перевірте білд-профіль шляхом *File -> Build Profiles*. Він повинен бути ідентичним до зображення (призначений для дебаггінгу та загального тестування):
-   ![Зображення Build Profiles](https://cdn.discordapp.com/attachments/1415008906991898705/1415036797234315344/image.png?ex=68c1bf36&is=68c06db6&hm=0d2d485e4f8e0527ff729985afe2cd10eb294d706c4e802d1bbcf299aaaf76b6&)
+   ![Зображення Build Profiles](https://cdn.discordapp.com/attachments/1415008906991898705/1415036797234315344/image.png?ex=68c50af6&is=68c3b976&hm=e5b7b3575c9ac796afc4ae94cd3c940e4331494459ec4aeefccb9780b8038111&)
 
 3. Якщо ви додали нові сцени, їх треба також додати до списку сцен у *Build Profiles -> Scene List*, наприклад відкривши необхідну сцену та натиснувши *Add Open Scenes*.
    Зверніть увагу - у скрипті до сцен можна звертатися як за ім'ям, так і за ID. **Змінювати порядок сцен категорично не рекомендується!**
