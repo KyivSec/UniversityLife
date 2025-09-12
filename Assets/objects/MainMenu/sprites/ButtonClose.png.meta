@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9611a5b6c7b68d42ac23d695f8877f4
-      internalID: -1256799026
+      spriteID: 20c35c81c98cc2a40a49bbd636923616
+      internalID: -1172456971
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6d7faef832aadc743b8e4d90136c6ef9
+    spriteID: 32533833c7764fa4ab32fe747af0aef0
     internalID: 0
     vertices: []
     indices: 
@@ -173,7 +173,7 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       ButtonClose_0: 1056705559309152882
-      ButtonClose_1: -1256799026
+      ButtonClose_1: -1172456971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

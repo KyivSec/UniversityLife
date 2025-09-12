@@ -35,7 +35,7 @@ git pull origin main
 
 Якщо ви збираєтесь білдити гру, вам необхідно дотриматись таких умов:
 
-1. Завантажте *Build Support* під вашу систему шляхом **Installs -> Unity 6.2 -> Add Modules -> "**Windows Build Support (Mono)"**.*
+1. Завантажте *Build Support* під вашу систему шляхом Installs -> Unity 6.2 -> Add Modules -> "**Windows Build Support (Mono)"**.*
    **ОБОВ'ЯЗКОВО MONO, IL2CPP НЕ ПІДІЙДЕ!!!**
    ![Зображення Add modules](https://cdn.discordapp.com/attachments/1415008906991898705/1415033030552191006/image.png?ex=68c1bbb4&is=68c06a34&hm=35c0e871cff927af1a9eb3ec0e11a3d00aa96aa3e3935b44bd7cce44982fd987&)
    **Переконайтеся, що ви зняли ластівку з модулю "Microsoft Visual Studio Community 2022" зверху!**

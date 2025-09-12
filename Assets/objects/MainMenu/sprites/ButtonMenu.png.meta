@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 604ace59ff2bb8f42a3e1eaac18b8086
-      internalID: -399831089
+      spriteID: bc419412bd8888d419c55b89ec1c506c
+      internalID: 2050340319
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b7b274d7f40da38408a16cd7ed17d314
+    spriteID: 8ed66f9ed162a0b4c9863c66ca225263
     internalID: 0
     vertices: []
     indices: 
@@ -173,7 +173,7 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       ButtonMenu_0: 5765737632965386846
-      ButtonMenu_1: -399831089
+      ButtonMenu_1: 2050340319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

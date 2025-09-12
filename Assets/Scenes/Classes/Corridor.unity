@@ -1316,10 +1316,10 @@ RectTransform:
   - {fileID: 1563323445}
   m_Father: {fileID: 79233472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 522.80475, y: -175.84532}
-  m_SizeDelta: {x: -1025.9285, y: -297.35327}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -117.19525, y: 184.15466}
+  m_SizeDelta: {x: 254.07153, y: 422.64673}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1315709073
 MonoBehaviour:
@@ -1989,9 +1989,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1943161782}
   - component: {fileID: 1943161781}
-  - component: {fileID: 1943161783}
   - component: {fileID: 1943161784}
   - component: {fileID: 1943161785}
+  - component: {fileID: 1943161783}
+  - component: {fileID: 1943161786}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2150,6 +2151,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.31249997, y: 0.53124994}
   m_Direction: 0
+--- !u!114 &1943161786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943161780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc643ee5670dc1240a1d0db90c36eb91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PhoneScript
+  phoneUIElement: {fileID: 1315709071}
+  animationSpeed: 10
+  initialPosition: -200
+  finalPosition: 184
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

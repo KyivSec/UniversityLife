@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 465479f3d95bb9c44b3105230f7e4d54
+guid: cdb7c84f2c9204d40b29ec5c8e6ac54e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3450703028438469997
-    second: ButtonPlay_0
+      213: -9073525348021398147
+    second: ButtonNewGame_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ButtonPlay_0
+      name: ButtonNewGame_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3927f84d0e3ac10d0800000000000000
-      internalID: -3450703028438469997
+      spriteID: d759ea205cc541280800000000000000
+      internalID: -9073525348021398147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ButtonPlay_1
+      name: ButtonNewGame_1
       rect:
         serializedVersion: 2
         x: 16
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a4a98f76380af84a96d00daafb1c8d4
-      internalID: -1494606822
+      spriteID: c9f87d72ce2d9ff479626d44fd91f470
+      internalID: -523613196
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 04572360cd3abd94a8dca7ed773c7e6f
+    spriteID: 7e4b7ebbfc11a26489a95b992b94f026
     internalID: 0
     vertices: []
     indices: 
@@ -172,8 +172,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      ButtonPlay_0: -3450703028438469997
-      ButtonPlay_1: -1494606822
+      ButtonNewGame_0: -9073525348021398147
+      ButtonNewGame_1: -523613196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
