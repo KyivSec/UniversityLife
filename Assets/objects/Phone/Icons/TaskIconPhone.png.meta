@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 107fa95ad9ef54b4db03347555afb75a
+guid: 16b378fb487118143aa5d445752d8ca7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5236913245388496507
-    second: ChatIconPhone_0
+      213: -5422142312301598691
+    second: TaskIconPhone_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 64
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatIconPhone_0
+      name: TaskIconPhone_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7e5beea9d04da840800000000000000
-      internalID: 5236913245388496507
+      spriteID: d18e5a17b4ea0c4b0800000000000000
+      internalID: -5422142312301598691
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatIconPhone_0: 5236913245388496507
+      TaskIconPhone_0: -5422142312301598691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

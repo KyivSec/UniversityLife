@@ -9,19 +9,13 @@ public class MainMenuController : MonoBehaviour
 
     [Header("Main Buttons")]
     [SerializeField] private Button _newGameButton;
-    [SerializeField] private Button _playButton;
-    [SerializeField] private Button _moreButton;
-    [SerializeField] private Button _exitButton;
 
     [Header("Panel Buttons")]
     [SerializeField] private Button _optionsButton;
     [SerializeField] private Button _optionsCategoryVideo;
     [SerializeField] private Button _optionsCategoryGraphics;
     [SerializeField] private Button _optionsCategorySounds;
-    [SerializeField] private Button _creditsButton;
     [SerializeField] private Button _exitYESButton;
-    [SerializeField] private Button _exitNOButton;
-    [SerializeField] private Button _backButton;
 
     [Header("'More' Menu Tabs")]
     [SerializeField] private GameObject _tabPanel;
@@ -30,10 +24,8 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private GameObject _tabOptionsVideo;
     [SerializeField] private GameObject _tabOptionsGraphics;
     [SerializeField] private GameObject _tabOptionsSounds;
-    [SerializeField] private GameObject _tabCredits;
 
     [Header("Main Panels")]
-    [SerializeField] private GameObject _playConfirmPanel;
     [SerializeField] private GameObject _exitPanel;
 
     private void OnNewGame()
@@ -45,11 +37,8 @@ public class MainMenuController : MonoBehaviour
     private void OnOptions()
     {
         OptionCategories("video");
-        _catSelector.SetActive(true);
 
-        _tabPanel.SetActive(true);
         _tabOptions.SetActive(true);
-        _tabCredits.SetActive(false);
     }
 
     private void OptionCategories(string category)
@@ -78,30 +67,6 @@ public class MainMenuController : MonoBehaviour
             Debug.LogError("Option category can't be defined");
         }
     }
-
-    private void OnCredits()
-    {
-        _catSelector.SetActive(false);
-
-        _tabPanel.SetActive(true);
-        _tabCredits.SetActive(true);
-    }
-
-    private void OnBack()
-    {
-        _tabPanel.SetActive(false);
-    }
-
-    private void OnExit()
-    {
-        _catSelector.SetActive(false);
-
-        _exitPanel.SetActive(true);
-    }
-    private void ExitNo()
-    {
-        _exitPanel.SetActive(false);
-    }
     private void ExitYes()
     {
         Application.Quit();
@@ -109,8 +74,6 @@ public class MainMenuController : MonoBehaviour
 
     private void ButtonConnector()
     {
-        _moreButton.onClick.AddListener(OnOptions);
-
         _newGameButton.onClick.AddListener(OnNewGame);
 
         _optionsButton.onClick.AddListener(OnOptions);
@@ -118,13 +81,7 @@ public class MainMenuController : MonoBehaviour
         _optionsCategoryGraphics.onClick.AddListener(() => OptionCategories("graphics"));
         _optionsCategorySounds.onClick.AddListener(() => OptionCategories("sounds"));
 
-        _creditsButton.onClick.AddListener(OnCredits);
-
-        _backButton.onClick.AddListener(OnBack);
-
-        _exitButton.onClick.AddListener(OnExit);
         _exitYESButton.onClick.AddListener(ExitYes);
-        _exitNOButton.onClick.AddListener(ExitNo);
     }
 
     void Start()
